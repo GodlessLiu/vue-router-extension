@@ -20,4 +20,10 @@ interface RouterMenu {
   name: string;
   priority: number;
 }
-export const routerMenuGroup: Array<RouterMenu> = [];
+export const routerMenuGroup: Array<RouterMenu> = [
+  {
+    id: "systerm",
+    name: "",
+    priority: 4,
+  },
+];
